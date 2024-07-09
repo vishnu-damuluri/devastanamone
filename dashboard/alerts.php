@@ -9,8 +9,8 @@ if (!isset($_SESSION['email'])) {
 
 // PHP MySQL connection
 $servername = "localhost";
-$username = "root";
-$password = "2626#26Vsl";
+$username = "newuser";
+$password = "newpassword";
 $database = "temple";
 
 // Create connection
