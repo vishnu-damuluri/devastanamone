@@ -1,8 +1,8 @@
 <?php
 // PHP MySQL connection
 $servername = "localhost";
-$username = "root";
-$password = "";
+$username = "newuser";
+$password = "newpassword";
 $database = "temple";
 
 // Create connection
