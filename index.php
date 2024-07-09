@@ -2,7 +2,7 @@
 // PHP MySQL connection
 $servername = "localhost";
 $username = "root";
-$password = "2626#26Vsl";
+$password = "";
 $database = "temple";
 
 // Create connection
