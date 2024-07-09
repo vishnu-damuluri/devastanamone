@@ -3,8 +3,8 @@ session_start();
 
 // Database connection
 $servername = "localhost";
-$username = "root";
-$password = "2626#26Vsl";
+$username = "newuser";
+$password = "newpassword";
 $database = "temple";
 
 $conn = new mysqli($servername, $username, $password, $database);
