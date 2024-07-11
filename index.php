@@ -80,7 +80,35 @@ $conn->close();
 
 </head>
 <body class=" bg-white">
-  <header class="bg-white fixed top-0 w-full z-10">
+<div class="fixed inset-0 flex z-10 items-center justify-center bg-black bg-opacity-50" id="popup">
+                <div class="bg-white p-6 rounded-lg shadow-lg text-center relative">
+                  <button class="absolute top-2 right-2 text-xl font-bold text-black" onclick="closePopup()">
+                    <i class="fas fa-times"></i> <!-- Font Awesome X icon -->
+                  </button>
+                  <h2 class="text-2xl font-bold mb-4">Passes are out!</h2>
+                  <img src="assets/Gow Pooja.JPG" alt="Special Offer Poster" class="w-72 mx-auto mb-4" preload="yes">
+                  <button onclick="register()" class="bg-yellow-500 text-white font-semibold py-2 px-4 rounded-full hover:bg-yellow-600">Get Passes Now ➜</button>
+                </div>
+              </div>
+            
+              <script>
+                // Function to display the pop-up when the page loads
+                window.onload = function() {
+                  document.getElementById('popup').style.display = 'flex';
+                }
+            
+                // Function to close the pop-up
+                function closePopup() {
+                  document.getElementById('popup').style.display = 'none';
+                }
+            
+                // Function to handle registration
+                function register() {
+                  // Redirecting to the registration page
+                  window.location.href = "https://gevents.gitam.edu/registration/NjUw";
+                }
+              </script>
+<header class="bg-white  top-0 w-full z-10">
     <nav class="mx-auto flex max-w-pc items-center justify-between p-4 lg:px-8" aria-label="Global">
       <div class="flex lg:flex">
         <div class="flex">
@@ -98,80 +126,11 @@ $conn->close();
       </div>
       <div class="hidden lg:flex lg:flex-1 lg:justify-end gap-8">
       <!-- component -->
-<div class="min-w-screen flex items-center justify-center">
-      <div class="relative group">
-        <button id="dropdown-button" class="inline-flex justify-center w-full px-4 py-2 text-sm font-medium text-gray-700 bg-white  border-gray-300 rounded-md shadow-sm  ">
-          <span class="mr-2 " style="font-weight: bold;">Darshan</span>
-          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 ml-2 -mr-1" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-            <path fill-rule="evenodd" d="M6.293 9.293a1 1 0 011.414 0L10 11.586l2.293-2.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clip-rule="evenodd" />
-          </svg>
-        </button>
-        <div id="dropdown-menu" class="hidden absolute right-0 mt-2 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 p-1 space-y-1">
-          <!-- Search input -->
-          <!-- Dropdown content goes here -->
-          <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100 active:bg-blue-100 cursor-pointer rounded-md">Uppercase</a>
-          <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100 active:bg-blue-100 cursor-pointer rounded-md">Lowercase</a>
-          <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100 active:bg-blue-100 cursor-pointer rounded-md">Camel Case</a>
-          <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100 active:bg-blue-100 cursor-pointer rounded-md">Kebab Case</a>
-        </div>
-      </div>
-    </div>
-    <script>
-  document.addEventListener('DOMContentLoaded', function() {
-    const dropdownButton = document.getElementById('dropdown-button');
-    const dropdownMenu = document.getElementById('dropdown-menu');
-    const searchInput = document.getElementById('search-input');
-    let isOpen = false; // Dropdown starts closed by default
-    
-    // Function to toggle the dropdown state
-    function toggleDropdown() {
-      isOpen = !isOpen;
-      dropdownMenu.classList.toggle('hidden', !isOpen);
-    }
-    
-    // Initial state (dropdown is closed)
-    dropdownMenu.classList.add('hidden');
-    
-    // Toggle dropdown when button is clicked
-    dropdownButton.addEventListener('click', function() {
-      toggleDropdown();
-    });
-    
-    // Filter items based on search input
-    searchInput.addEventListener('input', function() {
-      const searchTerm = searchInput.value.trim().toLowerCase();
-      const items = dropdownMenu.querySelectorAll('.dropdown-item');
-      
-      items.forEach(function(item) {
-        const text = item.textContent.trim().toLowerCase();
-        if (text.includes(searchTerm)) {
-          item.style.display = 'block';
-        } else {
-          item.style.display = 'none';
-        }
-      });
-    });
-  });
-</script>
-        <a href="#" class="flex items-center text-sm font-semibold leading-6 text-grey">Seva
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="mx-1 size-6">
-            <path d="M12.75 12.75a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM7.5 15.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5ZM8.25 17.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM9.75 15.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5ZM10.5 17.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12 15.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5ZM12.75 17.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM14.25 15.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5ZM15 17.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM16.5 15.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5ZM15 12.75a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM16.5 13.5a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Z" />
-            <path fill-rule="evenodd" d="M6.75 2.25A.75.75 0 0 1 7.5 3v1.5h9V3A.75.75 0 0 1 18 3v1.5h.75a3 3 0 0 1 3 3v11.25a3 3 0 0 1-3 3H5.25a3 3 0 0 1-3-3V7.5a3 3 0 0 1 3-3H6V3a.75.75 0 0 1 .75-.75Zm13.5 9a1.5 1.5 0 0 0-1.5-1.5H5.25a1.5 1.5 0 0 0-1.5 1.5v7.5a1.5 1.5 0 0 0 1.5 1.5h13.5a1.5 1.5 0 0 0 1.5-1.5v-7.5Z" clip-rule="evenodd" />
-          </svg>
-        </a>
-        <a href="#" class="flex items-center text-sm font-semibold leading-6 text-grey">Contact
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="mx-1 size-6">
-            <path fill-rule="evenodd" d="M4.848 2.771A49.144 49.144 0 0 1 12 2.25c2.43 0 4.817.178 7.152.52 1.978.292 3.348 2.024 3.348 3.97v6.02c0 1.946-1.37 3.678-3.348 3.97a48.901 48.901 0 0 1-3.476.383.39.39 0 0 0-.297.17l-2.755 4.133a.75.75 0 0 1-1.248 0l-2.755-4.133a.39.39 0 0 0-.297-.17 48.9 48.9 0 0 1-3.476-.384c-1.978-.29-3.348-2.024-3.348-3.97V6.741c0-1.946 1.37-3.68 3.348-3.97Z" clip-rule="evenodd" />
-          </svg>
-        </a>
-        <a href="/login" class="flex items-center text-sm font-semibold leading-6 text-grey">Donate
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="red" class="mx-1 size-6">
-            <path d="m11.645 20.91-.007-.003-.022-.012a15.247 15.247 0 0 1-.383-.218 25.18 25.18 0 0 1-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0 1 12 5.052 5.5 5.5 0 0 1 16.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 0 1-4.244 3.17 15.247 15.247 0 0 1-.383.219l-.022.012-.007.004-.003.001a.752.752 0 0 1-.704 0l-.003-.001Z" />
-          </svg>
-        </a>
-        <a href="./login.php" class="flex items-center text-sm font-semibold leading-6 text-grey">Log in
-          <span aria-hidden="true">&rarr;</span>
-        </a>
+
+      <a href="seva.html" class="flex items-center text-md font-semibold leading-2 text-grey border-l border-r border-gray-500 px-2">Sevas</a>
+      <a href="darshan.html" class="flex items-center text-md font-semibold leading-2 text-grey border-l border-r border-gray-500 px-2">Darshan</a>
+        <a href="#footer"  class="flex items-center text-md font-semibold leading-2 text-grey border-l border-r border-gray-500 px-2">Contact</a>
+        <a href="donate.html" class="flex items-center text-sm font-semibold leading-2 text-grey border-l border-r border-gray-500 px-2">Donate </a>
       </div>
     </nav>
     
@@ -194,29 +153,28 @@ $conn->close();
         <div class="mt-6 flow-root">
           <div class="-my-6 divide-y divide-gray-500/10">
             <div class="space-y-2 py-6">
-              <a href="#" class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10">Darshan 🙏</a>
-              <a href="#" class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10">Seva</a>
-              <a href="#" class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10">Contact</a>
-              <a href="/login" class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10">Donate</a>
-            </div>
-            <div class="py-6">
-              <a href="#" class="-mx-3 block rounded-lg py-2.5 px-3 text-base font-semibold leading-6 text-gray-900 hover:bg-gray-400/10">Log in</a>
+              <a href="darshan.html" class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10">Darshan 🙏</a>
+              <a href="seva.html" class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10">Seva</a>
+              <a href="#footer" class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10">Contact</a>
+              <a href="donate.html" class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10">Donate</a>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <script>
+        // JavaScript to toggle the mobile menu
+        document.getElementById("mainmenu").addEventListener("click", function() {
+          document.getElementById("mobile-menu").classList.toggle("hidden");
+        });
+        document.getElementById("closemenu").addEventListener("click", function() {
+          document.getElementById("mobile-menu").classList.add("hidden");
+        });
+        document.querySelector('#mobile-menu a[href="#footer"]').addEventListener("click", function() {
+          document.getElementById("mobile-menu").classList.add("hidden");
+        });
+    </script>
   </header>
-  <br>
-  <script>
-    // JavaScript to toggle the mobile menu
-    document.getElementById("mainmenu").addEventListener("click", function() {
-      document.getElementById("mobile-menu").classList.toggle("hidden");
-    });
-    document.getElementById("closemenu").addEventListener("click", function() {
-      document.getElementById("mobile-menu").classList.add("hidden");
-    });
-  </script>
   
               <script>
                 document.addEventListener('DOMContentLoaded', (event) => {
@@ -499,7 +457,7 @@ $conn->close();
       
 
         <!-- component -->
-<footer class="bg-white" aria-labelledby="footer-heading">
+<footer class="bg-white" id="footer" aria-labelledby="footer-heading">
   <h2 id="footer-heading" class="sr-only">Footer</h2>
   <div class="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
     <div class="xl:grid xl:grid-cols-3 xl:gap-8">
