@@ -109,7 +109,7 @@ $conn->close();
                   window.location.href = "https://gevents.gitam.edu/registration/NjUw";
                 }
               </script>
-<header class="bg-white  top-0 w-full z-10">
+<header class="bg-white  fixed top-0 w-full z-10">
     <nav class="mx-auto flex max-w-pc items-center justify-between p-4 lg:px-8" aria-label="Global">
       <div class="flex lg:flex">
         <div class="flex">
