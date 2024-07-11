@@ -86,9 +86,9 @@ $conn->close();
                   <button class="absolute top-2 right-2 text-xl font-bold text-black" onclick="closePopup()">
                     <i class="fas fa-times"></i> <!-- Font Awesome X icon -->
                   </button>
-                  <h2 class="text-2xl font-bold mb-4">Passes are out!</h2>
+                  <h2 class="text-2xl font-bold mb-4">Alert!</h2>
                   <img src="assets/Gow Pooja.JPG" alt="Special Offer Poster" class="w-72 mx-auto mb-4" preload="yes">
-                  <button onclick="register()" class="bg-yellow-500 text-white font-semibold py-2 px-4 rounded-full hover:bg-yellow-600">Get Passes Now ➜</button>
+                  <button onclick="register()" class="bg-yellow-500 text-white font-semibold py-2 px-4 rounded-full hover:bg-yellow-600">book here ➜</button>
                 </div>
               </div>
             
