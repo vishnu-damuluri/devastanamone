@@ -37,7 +37,7 @@
 
 </head>
 <body class=" bg-white">
-  <header class="bg-white fixed top-0 w-full z-10">
+  <header class="bg-white  top-0 w-full z-10">
     <nav class="mx-auto flex max-w-pc items-center justify-between p-4 lg:px-8" aria-label="Global">
       <div class="flex lg:flex">
         <div class="flex">
@@ -164,6 +164,59 @@
       </div>
     </div>
   </header>
+  <!--
+  Heads up! 👋
+
+  This component comes with some `rtl` classes. Please remove them if they are not needed in your project.
+-->
+
+<div aria-label="Breadcrumb" class="mx-10">
+        <ol class="flex items-center gap-1 text-md text-gray-800">
+          <li>
+            <a href="#" class="block transition hover:text-gray-700">
+              <span class="sr-only"> Home </span>
+      
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-4 w-4"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
+                />
+              </svg>
+            </a>
+          </li>
+      
+          <li class="rtl:rotate-180">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-4 w-4"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </li>
+      
+          <li>
+            <a href="#" class="block transition hover:text-gray-700"> Sevas & Darshan </a>
+          </li>
+      
+          
+      
+          
+        </ol>
+</div>
   <br>
   <script>
     // JavaScript to toggle the mobile menu
@@ -186,22 +239,30 @@
         ‎ <br>
 
     <a class="mt-24 ml-8 text-2xl font-bold text-center  text-black">Sevas</a>
-    <div class="grid grid-cols-1 my-6 ml-4 mr-4 gap-4 lg:grid-cols-4 md:grid-cols-2 lg:gap-8">
+    <div class="grid grid-cols-1 my-6 ml-4 mr-4 gap-4 lg:grid-cols-3 md:grid-cols-2 lg:gap-8">
 
-        <div class="rounded-2xl bg-orange-500">
-            <h5 class="text-lg font-semibold mt-2 ml-4 text-black sm:text-xl mx-4 rounded-lg">
-                <span class="text-xl font-bold">"</span>
-okokok                <span class="text-xl font-bold">"</span>
+        <div class=" bg-orange-500">
+            <h5 class="text-lg font-semibold mt-2 ml-4 text-center text-black sm:text-xl mx-4 rounded-lg">
+                Archana
             </h5>
             <div class="mb-6 mr-4 text-right rounded-lg">
-                <h5 class="text-sm font-bold mx-4 text-gray-500 sm:text-sm">-<?php echo htmlspecialchars($review['user_name']); ?></h5>
-                <p class="text-sm font-bold mx-4 text-gray-400 sm:text-sm"><?php echo htmlspecialchars($review['user_location']); ?></p>
+                <h5 class="text-sm font-bold mx-4 text-gray-500 sm:text-sm"></h5>
+                <p class="text-sm font-bold mx-4 text-gray-400 sm:text-sm"></p>
             </div>
         </div>
         <div class="rounded-2xl bg-orange-500">
                 <h5 class="text-lg font-semibold mt-2 ml-4 text-black sm:text-xl mx-4 rounded-lg">
-                    <span class="text-xl font-bold">"</span>
-    okokok                <span class="text-xl font-bold">"</span>
+                        Mahaharathi 
+
+                </h5>
+                <div class="mb-6 mr-4 text-right rounded-lg">
+                    <h5 class="text-sm font-bold mx-4 text-gray-500 sm:text-sm"></h5>
+                    <p class="text-sm font-bold mx-4 text-gray-400 sm:text-sm"><?php echo htmlspecialchars($review['user_location']); ?></p>
+                </div>
+            </div>
+            <div class="rounded-2xl bg-orange-500">
+                <h5 class="text-lg font-semibold mt-2 ml-4 text-black sm:text-xl mx-4 rounded-lg">
+                        Gowpooja
                 </h5>
                 <div class="mb-6 mr-4 text-right rounded-lg">
                     <h5 class="text-sm font-bold mx-4 text-gray-500 sm:text-sm">-<?php echo htmlspecialchars($review['user_name']); ?></h5>
@@ -210,18 +271,8 @@ okokok                <span class="text-xl font-bold">"</span>
             </div>
             <div class="rounded-2xl bg-orange-500">
                 <h5 class="text-lg font-semibold mt-2 ml-4 text-black sm:text-xl mx-4 rounded-lg">
-                    <span class="text-xl font-bold">"</span>
-    okokok                <span class="text-xl font-bold">"</span>
-                </h5>
-                <div class="mb-6 mr-4 text-right rounded-lg">
-                    <h5 class="text-sm font-bold mx-4 text-gray-500 sm:text-sm">-<?php echo htmlspecialchars($review['user_name']); ?></h5>
-                    <p class="text-sm font-bold mx-4 text-gray-400 sm:text-sm"><?php echo htmlspecialchars($review['user_location']); ?></p>
-                </div>
-            </div>
-            <div class="rounded-2xl bg-orange-500">
-                <h5 class="text-lg font-semibold mt-2 ml-4 text-black sm:text-xl mx-4 rounded-lg">
-                    <span class="text-xl font-bold">"</span>
-    okokok                <span class="text-xl font-bold">"</span>
+                        Dhakshinamoorthy Archana
+
                 </h5>
                 <div class="mb-6 mr-4 text-right rounded-lg">
                     <h5 class="text-sm font-bold mx-4 text-gray-500 sm:text-sm">-<?php echo htmlspecialchars($review['user_name']); ?></h5>
@@ -233,10 +284,6 @@ okokok                <span class="text-xl font-bold">"</span>
 
     </div>
 </section>
-
-      <div class="w-full text-right p-4">
-        <a class="text-right text-xl font-semibold " href="./reviews.php">Share your experience <span aria-hidden="true">&rarr;</span></a>
-    </div>
       
 
         <!-- component -->
