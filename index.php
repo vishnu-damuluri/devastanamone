@@ -381,7 +381,7 @@ $conn->close();
             </li>
       
             <li>
-              <a href="#" class="group relative block">
+              <a href="seva.html" class="group relative block">
                 <img
                   src="assets/IMG-20240510-WA0016.jpg"
                   alt=""

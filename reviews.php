@@ -84,7 +84,7 @@ $conn->close();
                 <input type="text" class="form-control" id="user_name" name="user_name" required>
             </div>
             <div class="mb-3">
-                <label for="user_location" class="form-label">Location</label>
+                <label for="user_location" class="form-label">From</label>
                 <input type="text" class="form-control" id="user_location" name="user_location" required>
             </div>
             <div class="mb-3">
