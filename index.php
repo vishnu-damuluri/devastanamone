@@ -278,7 +278,7 @@ $conn->close();
           <path d="M100 200V.5M.5 .5H200" fill="none" />
         </pattern>
       </defs>
-      <svg x="50%" y="-1" class="overflow-visible fill-gray-50">
+      <svg x="50%" y="-1" class="overflow-visible fill-gray-500">
         <path d="M-100.5 0h201v201h-201Z M699.5 0h201v201h-201Z M499.5 400h201v201h-201Z M-300.5 600h201v201h-201Z" stroke-width="0" />
       </svg>
       <rect width="100%" height="100%" stroke-width="0" fill="url(#e813992c-7d03-4cc4-a2bd-151760b470a0)" />
@@ -300,35 +300,21 @@ $conn->close();
       <a class="my-4 font-semibold text-black">"Jagadhap pitharou vandhe Parvathi Parameshwarou!!!"<br> Salutations to the parents of the Universe, O Parvathi and Parameshwara!!!</a>
       <br>
       <a class="my-4">
-        Surutapalli is a village in the Chittoor District in Andhra Pradesh, India. In this village is a temple dedicated to Lord Shiva, a very special temple indeed for many are the unique features in this temple. Surutapalli is a place that’s 56 kms from Chennai, TamilNadu. The route is Chennai -> Redhills -> Periyapalayam -> Uthookottai -> Surutapalli. From Tirupathi, its 75 kms. The route is Tirupathi -> Puoor -> Nahalapuram -> Surutapalli. It was really an amazing trip to this temple, as unexpected as astounding.
-      </a>
+      Surutapalli, nestled in the Chittoor District of Andhra Pradesh, is home to a remarkable temple dedicated to Lord Shiva. This sacred site boasts a distinctive architectural layout with both outer and inner prakarams. Within the inner sanctum, known as the Garbagraham, reside shrines venerating Lord Shiva and Goddess Parvathi.      </a>
       <br>
       <div id="moreContent" style="display: none;">
-        <a class="my-4">The temple has an outer prakaram, an inner prakaram. In the inner prakaram lies the Garbagraham (the Sanctum Sanctorum), that has the shrines of Shiva and Parvathi. Sitting at the entrance of the shrine of Lord Shiva, is the God who gets the first respects, the destroyer of all obstacles, Lord Ganapathi. Surutapalli is the place where Sage Valmiki, the composer of the Ramayana, a great epic in Hindu Mythology, performed severe penance towards Lord Shiva. Moved by his devotion, the Lord appeared in front of him. Sage Valmiki is a ‘Svayambhu’ linga, a self-formed one, worshipped as Lord Valmikeswarar. This is the Pradhosha Murthy, the one who takes the offerings on the day of the Pradhosham. Opposite Valmikeswarar, is Lord Shiva as another Linga. The Goddess is worshipped as Maragadhambika.</a>
+        <a class="my-4">Legend has it that Sage Valmiki, renowned as the author of the epic Ramayana, once undertook rigorous penance here. His devout prayers led to the manifestation of Lord Valmikeswarar, revered as a 'Svayambhu' linga, symbolizing his divine connection with Shiva.</a>
         <br>
         <a class="my-4">
-          The temple has an outer prakaram, an inner prakaram. In the inner prakaram lies the Garbagraham (the Sanctum Sanctorum), that has the shrines of Shiva and Parvathi. Sitting at the entrance of the shrine of Lord Shiva, is the God who gets the first respects, the destroyer of all obstacles, Lord Ganapathi. Surutapalli is the place where Sage Valmiki, the composer of the Ramayana, a great epic in Hindu Mythology, performed severe penance towards Lord Shiva. Moved by his devotion, the Lord appeared in front of him. Sage Valmiki is a ‘Svayambhu’ linga, a self-formed one, worshipped as Lord Valmikeswarar. This is the Pradhosha Murthy, the one who takes the offerings on the day of the Pradhosham. Opposite Valmikeswarar, is Lord Shiva as another Linga. The Goddess is worshipped as Maragadhambika.
+        An extraordinary feature of the temple is the depiction of Lord Shiva reclining on Parvathi's lap, known as Pallikondeswarar. This portrayal commemorates the mythological event where Shiva heroically consumed the potent Aalahala poison during the cosmic churning of the Milk Ocean. Parvathi, in an act of profound love and protection, halted the poison's descent, giving Shiva his epithet Neelakhanta, the one with the blue throat.
         </a>
         <br>
         <a class="my-4">
-          Then as one comes around Valmikeswarar, to the left of Him, are also present Lord Krishna and Lord Hanuman. There is a stone slab, that has the impressions of small pairs of feet, proclaimed to be the feet of Lava and Kusha, the two sons o f Lord Rama. It is believed that Lava and Kusha played here. In the entrance to the chamber of Lord Shiva are also present Lord Rama with Sita, Lakshman and Hanuman along with Bharata and Shatrugna.
-        </a>
+        The temple is particularly revered for its association with Pradhoshams, special occasions celebrated during the twilight hours of Thrayodhasi, the thirteenth day after a new or full moon. This auspicious time marks the evening when Shiva performed the 'Anandha Natanam' or the dance of bliss, restoring harmony and balance to the universe.        </a>
         <br>
         <a class="my-4">
-          Along the western wall of the inner prakaram, facing the Lingodhbhavar is another speciality. Called “Ekapaadha Trimurthy”, is a carving, depicting the trinity standing on one foot. In the centre is Lord Shiva, Lord Vishnu to His left and Lord Brahma to His right. One foot of Vishnu rests on the Garuda and one foot of Brahma rests on the Swan. The other foot of both joins with the foot that all three are depicted standing on. The shrine of Lord Subrahmanya with Valli and Devasena faces south, yet another speciality. There is also a deity of Sage Valmiki, depicted sitting and having a turban on his head.
-        </a>
+        Surutapalli thus stands as a cherished pilgrimage site, steeped in mythology and spiritual significance, drawing devotees seeking solace and divine blessings from Lord Shiva and Goddess Parvathi.        </a>
         <br>
-        <a class="my-4">
-          In the outer prakaram, is the Sthala Vriksham, a peepal tree that is so huge and tall and widespread, hosting the shrine of the Nagaraja. In the southern corridor of the outer prakaram, lies the ultimate uniqueness of Surutapalli.
-        </a>
-        <br>
-        <a class="my-4">
-          In one of the rarest and the most unique sights across any Indian Temple, is Lord Shiva depicted as resting on the lap of Goddess Parvathi. He is worshipped as Pallikondeswarar. (Palli - Tamil – Sleep, Konda – Tamil – to have or to be, Eswarar – Tamil - Shiva). 
-        </a>
-        <br>
-        <a class="my-4">
-          Lord Shiva is always worshipped in the form of a Linga. But here at Surutapalli, the Lord is in bodily form. For the goodness and safety of all the worlds, Lord Shiva drank the Aalahala poison, emanated during the Churning of the Milk Ocean. And the Goddess, fearing the danger, stopped the poison at Lord Shiva’s throat and stopped it from entering the body, giving Shiva the much celebrated name, Neelakhanta, the one with the blue throat. Feeling giddy from the consumption of Aalahala, the Lord is seen resting on the lap of His wife Parvathi. All the sages, devas and angels are singing around Him requesting Him to get up and restore balance in the world. Heeding to their prayers, the Lord wakes up and performs the “Anandha Natanam”, the dance of immense happiness or bliss. It was the Sandhya Kaalam or the evening, of Thrayodhasi (the thirteenth day after a new moon or a full moon), when this happened. This is the reason why the evenings of Thrayodhasis are celebrated as Pradhoshams. Hence Surutapalli is held as the “Aadhara Kshetram” for pradhoshams.
-        </a>
       </div>
       <br>
       <button id="showMoreBtn" class="mt-4 text-indigo-600 hover:text-indigo-900 font-semibold" href="#showMoreBtn">Show More</button>
