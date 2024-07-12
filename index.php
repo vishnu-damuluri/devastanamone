@@ -515,7 +515,7 @@ $conn->close();
           </div>
           <div class="mt-10 md:mt-0">
             <h3 class="text-sm font-semibold leading-6 text-gray-900">Support</h3>
-            <ul role="list" class="mt-6 space-y-4">
+            <ul role="list" class="mt-6 space-y-4 px-8">
               <li>
                 <a href="mailto:eosurutupalli@gmail.com" class="text-lg font-bold leading-6 text-gray-600 hover:text-gray-900">eosurutupalli@gmail.com</a>
               </li>
