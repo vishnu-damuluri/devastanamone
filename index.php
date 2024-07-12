@@ -131,7 +131,7 @@ $conn->close();
       <a href="seva.html" class="flex items-center text-md font-semibold leading-2 text-grey border-l border-r border-gray-500 px-2">Sevas</a>
       <a href="darshan.html" class="flex items-center text-md font-semibold leading-2 text-grey border-l border-r border-gray-500 px-2">Darshan</a>
         <a href="#footer"  class="flex items-center text-md font-semibold leading-2 text-grey border-l border-r border-gray-500 px-2">Contact</a>
-        <a href="donate.html" class="flex items-center text-sm font-semibold leading-2 text-grey border-l border-r border-gray-500 px-2">Donate </a>
+        <a href="#" class="flex items-center text-sm font-semibold leading-2 text-grey border-l border-r border-gray-500 px-2">Donate </a>
       </div>
     </nav>
     
@@ -382,7 +382,7 @@ $conn->close();
               </a>
             </li>
             <li>
-              <a href="#" class="group relative block">
+              <a href="prasadam.html" class="group relative block">
                 <img
                   src="assets/IMG-20240510-WA0023.jpg"
                   alt=""
