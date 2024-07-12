@@ -80,7 +80,7 @@ $conn->close();
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
 </head>
-<body class=" " style="background-color: #f2e7bf;">
+<body class=" " >
 <div class="fixed inset-0 flex z-10 items-center justify-center bg-black bg-opacity-50" id="popup">
                 <div class="bg-white p-6 rounded-lg shadow-lg text-center relative">
                   <button class="absolute top-2 right-2 text-xl font-bold text-black" onclick="closePopup()">
@@ -109,7 +109,7 @@ $conn->close();
                   window.location.href = "https://gevents.gitam.edu/registration/NjUw";
                 }
               </script>
-<header class="bg-white  fixed top-0 w-full z-10">
+<header class="  fixed top-0 w-full z-10" style="background-color: #f2e7bf;">
     <nav class="mx-auto flex max-w-pc items-center justify-between p-4 lg:px-8" aria-label="Global">
       <div class="flex lg:flex">
         <div class="flex">
