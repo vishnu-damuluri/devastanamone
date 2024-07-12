@@ -389,7 +389,7 @@ $conn->close();
                 />
       
                 <div class="absolute inset-0 flex flex-col items-start justify-end p-6">
-                  <h3 class="text-xl font-semibold text-black bg-white py-3 px-4 align-middle">Seva <span aria-hidden="true">&rarr;</span></h3>
+                  <h3 class="text-xl font-semibold text-black bg-white py-3 px-4 align-middle bg-opacity-70">Seva <span aria-hidden="true">&rarr;</span></h3>
       
                 </div>
               </a>
@@ -409,7 +409,7 @@ $conn->close();
               </a>
             </li>
             <li>
-              <a href="#" class="group relative block">
+              <a href="darshan.html" class="group relative block">
                 <img
                   src="assets/logodim.jpg"
                   alt=""
