@@ -127,7 +127,7 @@ $conn->close();
       </div>
       <div class="hidden lg:flex lg:flex-1 lg:justify-end gap-8">
       <!-- component -->
-      <a href="abhishekam.html" class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10">Abhishekam</a>
+      <a href="abhishekam.html" class="flex items-center text-md font-semibold leading-2 text-grey border-l border-r border-gray-500 px-2">Abhishekam</a>
       <a href="seva.html" class="flex items-center text-md font-semibold leading-2 text-grey border-l border-r border-gray-500 px-2">Sevas</a>
       <a href="darshan.html" class="flex items-center text-md font-semibold leading-2 text-grey border-l border-r border-gray-500 px-2">Darshan</a>
         <a href="#footer"  class="flex items-center text-md font-semibold leading-2 text-grey border-l border-r border-gray-500 px-2">Contact</a>
