@@ -28,7 +28,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $stmt->bind_param("sss", $user_name, $user_location, $user_review);
 
         if ($stmt->execute()) {
-            $success_message = "Review submitted successfully!";
+            // Redirect to thank_you.php after successful submission
+            header("Location: thank_you.php");
+            exit();
         } else {
             $error_message = "Error submitting review: " . $stmt->error;
         }
