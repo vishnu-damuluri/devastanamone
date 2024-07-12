@@ -414,7 +414,7 @@ $conn->close();
         </div>
       </section>
       <section>
-    <a class="mt-8 ml-8 text-2xl font-bold text-black">Hear from our devotees</a>
+    <a class="mt-8 ml-8 text-2xl font-bold text-black" id="reviews">Hear from our devotees</a>
     <div class="grid grid-cols-1 my-6 ml-4 mr-4 gap-4 lg:grid-cols-4 md:grid-cols-2 lg:gap-8">
     <?php foreach ($reviews as $review): ?>
 

@@ -29,7 +29,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         if ($stmt->execute()) {
             // Redirect to thank_you.php after successful submission
-            header("Location: thank_you.php");
+            header("Location: index.php/#reviews");
             exit();
         } else {
             $error_message = "Error submitting review: " . $stmt->error;
