@@ -349,7 +349,7 @@ $conn->close();
       
           <ul class="mt-8 grid grid-cols-1 gap-4 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2">
             <li>
-              <a href="#" class="group relative block">
+              <a href="abhishekam.html" class="group relative block">
                 <img
                   src="assets/IMG-20240510-WA0015.jpg"
                   alt=""
