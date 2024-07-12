@@ -81,7 +81,7 @@ $conn->close();
 
 </head>
 <body class=" " >
-<div class="fixed inset-0 flex z-10 items-center justify-center bg-black bg-opacity-50" id="popup">
+<div class="fixed inset-0 flex z-10 w-screen items-center justify-center bg-black bg-opacity-50" id="popup">
                 <div class="bg-white p-6 rounded-lg shadow-lg text-center relative">
                   <button class="absolute top-2 right-2 text-xl font-bold text-black" onclick="closePopup()">
                     <i class="fas fa-times"></i> <!-- Font Awesome X icon -->
