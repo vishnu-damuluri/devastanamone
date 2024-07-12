@@ -372,7 +372,7 @@ $conn->close();
       
                 <div class="absolute inset-0 flex flex-col items-start justify-end p-6">
                  
-                    <h3 class="text-xl font-semibold text-black mx-2 my-2 text-start gap-4 bg-white py-3 px-4">Abhishekam <span aria-hidden="true">&rarr;</span></h3>
+                    <h3 class="text-xl font-semibold text-black bg-opacity-70 mx-2 my-2 text-start gap-4 bg-white py-3 px-4">Abhishekam <span aria-hidden="true">&rarr;</span></h3>
       
                   
                  
@@ -389,7 +389,7 @@ $conn->close();
                 />
       
                 <div class="absolute inset-0 flex flex-col items-start justify-end p-6">
-                  <h3 class="text-xl font-semibold text-black bg-white py-3 px-4 align-middle bg-opacity-70">Seva <span aria-hidden="true">&rarr;</span></h3>
+                  <h3 class="text-xl font-semibold text-black bg-white py-3 px-4 align-middle bg-opacity-70 mx-2 my-2">Seva <span aria-hidden="true">&rarr;</span></h3>
       
                 </div>
               </a>
@@ -403,7 +403,7 @@ $conn->close();
                 />
       
                 <div class="absolute inset-0 flex flex-col items-start justify-end p-6">
-                  <h3 class="text-xl font-semibold text-black bg-white py-3 px-4">Prasadam <span aria-hidden="true">&rarr;</span></h3>
+                  <h3 class="text-xl font-semibold text-black bg-white bg-opacity-70 mx-2 my-2 py-3 px-4">Prasadam <span aria-hidden="true">&rarr;</span></h3>
       
                 </div>
               </a>
@@ -417,7 +417,7 @@ $conn->close();
                 />
       
                 <div class="absolute inset-0 flex flex-col items-start justify-end p-6">
-                  <h3 class="text-xl font-semibold text-black bg-white py-3 px-4">Book Online Darshan <span aria-hidden="true">&rarr;</span></h3>
+                  <h3 class="text-xl font-semibold text-black bg-white py-3 px-4 bg-opacity-70 mx-2 my-2">Book Online Darshan <span aria-hidden="true">&rarr;</span></h3>
       
                 </div>
               </a>
