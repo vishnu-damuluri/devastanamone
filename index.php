@@ -443,11 +443,7 @@ $conn->close();
       <div class="w-full text-right p-4">
         <a class="text-right text-xl font-semibold " href="./reviews.php">Share your experience <span aria-hidden="true">&rarr;</span></a>
     </div >
-    <div class="p-4 w-screen max-w-96">
-  <div class="aspect-ratio-16-9">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3882.2536351431527!2d79.87209697502131!3d13.334492506818414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a529d78ae4d2949%3A0x7c5d8187e936361d!2sSri%20Pallikondeswara%20Swamy%20Temple%2C%20Surutapalli!5e0!3m2!1sen!2sin!4v1720754076505!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-  </div>
-</div>
+  
 <div class="p-4 w-screen max-w-96">
   <div class="aspect-ratio-16-9">
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3882.2536351431527!2d79.87209697502131!3d13.334492506818414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a529d78ae4d2949%3A0x7c5d8187e936361d!2sSri%20Pallikondeswara%20Swamy%20Temple%2C%20Surutapalli!5e0!3m2!1sen!2sin!4v1720754076505!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
