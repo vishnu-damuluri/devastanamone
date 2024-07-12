@@ -369,7 +369,7 @@ $conn->close();
             <li>
               <a href="seva.html" class="group relative block">
                 <img
-                  src="assets/IMG-20240510-WA0016.jpg"
+                  src="assets/img1.jpg"
                   alt=""
                   class="aspect-square sm:w-72 w-full md:w-96 object-cover transition duration-500 group-hover:opacity-60"
                 />
