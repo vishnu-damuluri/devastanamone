@@ -211,7 +211,8 @@ $conn->close();
               
 
                
-              <section class="mt-18">
+              <section class="mt-16">
+                
               
                 <div id="slide2" class="carousel-item relative w-full">
                   <img src="https://devastanam.pages.dev/assets/slide1.jpg" />
