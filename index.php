@@ -112,7 +112,7 @@ $conn->close();
               </script>
 <header class="  fixed top-0 w-screen z-10" style="background-color: #f2e7bf;">
     <nav class="mx-auto flex max-w-pc items-center justify-between p-4 lg:px-8" aria-label="Global">
-      <div class="flex lg:flex">
+      <div class="flex lg:flex" href="index.php">
         <div class="flex">
           <img class="lg:h-16 md:h-12 h-14 object-contain sm:max-h-14 rounded-full" src="https://devastanam.pages.dev/assets/logo.jpg" alt="" />
         </div>
